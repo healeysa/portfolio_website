@@ -29,28 +29,39 @@ persona = """
         Steve's Linkdin: https://www.linkedin.com/in/steve-h-cs/
         Steve's GitHub: https://github.com/healeysa
         """
+st.set_page_config(layout="wide")
 
-placeholder = st.empty()
+# JavaScript to scroll to top
+js = """
+<script>
+    var body = window.document.querySelector("body");
+    body.scrollTop = 0;
+</script>
+"""
 
-with placeholder:
-    col1, col2 = st.columns(2)
-    with col1:
-        st.subheader("Hello :wave:")
-        st.title("I'm Steve Healey")
-    with col2:
-        st.image("images/steve.png")
+st.markdown(js, unsafe_allow_html=True)
 
-    # Steve's AI Bot Section to ask question
-    st.subheader("Steve's AI Bot")
+col1, col2 = st.columns(2)
 
-    user_question = st.text_input("Ask me anything and click the ASK Button")
-    if st.button("ASK"):
-        prompt = persona + "Here is the question that the user asked: " + user_question
-        response = model.generate_content(prompt)
-        st.write(response.text)
+with col1:
+    st.subheader("Hello :wave:")
+    st.title("I'm Steve Healey")
+with col2:
+    st.image("images/steve.png")
+
+# Steve's AI Bot Section to ask question
+st.subheader("Steve's AI Bot")
+
+user_question = st.text_input("Ask me anything and press the ASK Button")
+if st.button("ASK"):
+    prompt = persona + "Here is the question that the user asked: " + user_question
+    response = model.generate_content(prompt)
+    st.write(response.text)
 
 # response = model.generate_content("Write a story about a AI and magic")
 # st.write(response.text)
+
+st.title(" ")
 
 col1, col2 = st.columns(2)
 
