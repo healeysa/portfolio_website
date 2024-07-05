@@ -14,8 +14,6 @@ with col1:
 with col2:
     st.image("images/steve4.png")
 
-st.title(" ")
-
 
 persona = """
         You are Steve's AI bot. You help people answer questions about yourself (i.e Steve)
