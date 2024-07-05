@@ -5,18 +5,6 @@ api_key = st.secrets["GOOGLE_API_KEY"]
 genai.configure(api_key=api_key)
 model = genai.GenerativeModel('gemini-1.5-flash')
 
-# st.set_page_config(layout="wide")
-#
-# # JavaScript to scroll to top
-# js = """
-# <script>
-#     var body = window.document.querySelector("body");
-#     body.scrollTop = 0;
-# </script>
-# """
-#
-# st.markdown(js, unsafe_allow_html=True)
-
 col1, col2 = st.columns(2)
 
 with col1:
@@ -58,13 +46,10 @@ persona = """
 st.title("Steve's AI Bot")
 
 user_question = st.text_input("Ask me anything and press the ASK Button")
-if st.button("ASK"):
+if st.button("ASK", use_container_width=400):
     prompt = persona + "Here is the question that the user asked: " + user_question
     response = model.generate_content(prompt)
     st.write(response.text)
-
-# response = model.generate_content("Write a story about a AI and magic")
-# st.write(response.text)
 
 st.title(" ")
 
@@ -76,7 +61,8 @@ with col1:
 with col2:
     st.video("https://www.youtube.com/watch?v=DF7mNSgyKH8")
 
-st.write(" ")
+st.title(" ")
+
 st.title("My Setup")
 st.image("images/setup1.jpg")
 
