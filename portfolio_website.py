@@ -35,15 +35,14 @@ col1, col2 = st.columns(2)
 with col1:
     st.subheader("Hello :wave:")
     st.title("I'm Steve Healey")
-
 with col2:
     st.image("images/steve.png")
 
+# Steve's AI Bot Section to ask question
 st.title(" ")
 st.title("Steve's AI Bot")
 
-user_question = st.text_input("Ask me anything and press ASK Button")
-
+user_question = st.text_input("Ask me anything and then press the ASK Button")
 if st.text_input("ASK", use_container_width=400):
     prompt = persona + "Here is the question that the user asked: " + user_question
     response = model.generate_content(prompt)
