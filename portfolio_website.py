@@ -38,12 +38,8 @@ with col1:
 with col2:
     st.image("images/steve.png")
 
-st.title(" ")
-st.title(" ")
-st.title(" ")
-
 # Steve's AI Bot Section to ask question
-st.title("Steve's AI Bot")
+st.subheader("Steve's AI Bot")
 
 user_question = st.text_input("Ask me anything and press the ASK Button")
 if st.button("ASK"):
