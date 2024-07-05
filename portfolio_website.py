@@ -42,8 +42,9 @@ with col2:
 st.title(" ")
 st.title("Steve's AI Bot")
 
-user_question = st.text_input("Ask me anything")
-if st.button("ASK", use_container_width=400):
+user_question = st.text_input("Ask me anything and press ASK Button")
+
+if st.text_input("ASK", use_container_width=400):
     prompt = persona + "Here is the question that the user asked: " + user_question
     response = model.generate_content(prompt)
     st.write(response.text)
