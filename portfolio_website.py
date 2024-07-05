@@ -5,15 +5,6 @@ api_key = st.secrets["GOOGLE_API_KEY"]
 genai.configure(api_key=api_key)
 model = genai.GenerativeModel('gemini-1.5-flash')
 
-col1, col2 = st.columns(2)
-
-with col1:
-    st.subheader("Hello :wave:")
-    st.title("I'm Steve Healey")
-
-with col2:
-    st.image("images/steve.png")
-
 persona = """
         You are Steve's AI bot. You help people answer questions about yourself (i.e Steve)
         Answer as if you are responding first person. Don't answer in second or third person.
@@ -38,6 +29,15 @@ persona = """
         Steve's Linkdin: https://www.linkedin.com/in/steve-h-cs/
         Steve's GitHub: https://github.com/healeysa
         """
+
+col1, col2 = st.columns(2)
+
+with col1:
+    st.subheader("Hello :wave:")
+    st.title("I'm Steve Healey")
+
+with col2:
+    st.image("images/steve.png")
 
 st.title(" ")
 st.title("Steve's AI Bot")
