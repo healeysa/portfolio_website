@@ -44,7 +44,7 @@ with top_container:
     # Steve's AI Bot Section to ask question
     st.subheader("Steve's AI Bot")
 
-    user_question = st.text_input("Ask me anything and press the ASK Button")
+    user_question = st.text_input("Ask me anything and click the ASK Button")
     if st.button("ASK"):
         prompt = persona + "Here is the question that the user asked: " + user_question
         response = model.generate_content(prompt)
@@ -52,8 +52,6 @@ with top_container:
 
 # response = model.generate_content("Write a story about a AI and magic")
 # st.write(response.text)
-
-st.title(" ")
 
 col1, col2 = st.columns(2)
 
