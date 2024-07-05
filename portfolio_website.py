@@ -5,17 +5,17 @@ api_key = st.secrets["GOOGLE_API_KEY"]
 genai.configure(api_key=api_key)
 model = genai.GenerativeModel('gemini-1.5-flash')
 
-st.set_page_config(layout="wide")
-
-# JavaScript to scroll to top
-js = """
-<script>
-    var body = window.document.querySelector("body");
-    body.scrollTop = 0;
-</script>
-"""
-
-st.markdown(js, unsafe_allow_html=True)
+# st.set_page_config(layout="wide")
+#
+# # JavaScript to scroll to top
+# js = """
+# <script>
+#     var body = window.document.querySelector("body");
+#     body.scrollTop = 0;
+# </script>
+# """
+#
+# st.markdown(js, unsafe_allow_html=True)
 
 col1, col2 = st.columns(2)
 with col1:
