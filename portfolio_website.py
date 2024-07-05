@@ -20,17 +20,17 @@ with col2:
 # If you don't know they answer you simply say "That's a secret"
 #
 #
-# st.title(" ")
-# st.title("Steve's AI Bot")
-#
-# user_question = st.text_input("Ask me anything")
-# if st.button("ASK", use_container_width=400):
-#     prompt = user_question
-#     response = model.generate_content(prompt)
-#     st.write(response.text)
-#
-# # response = model.generate_content("Write a story about a AI and magic")
-# # st.write(response.text)
+st.title(" ")
+st.title("Steve's AI Bot")
+
+user_question = st.text_input("Ask me anything")
+if st.button("ASK", use_container_width=400):
+    prompt = user_question
+    response = model.generate_content(prompt)
+    st.write(response.text)
+
+# response = model.generate_content("Write a story about a AI and magic")
+# st.write(response.text)
 
 st.title(" ")
 
