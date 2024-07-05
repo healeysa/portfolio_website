@@ -32,6 +32,18 @@ persona = """
 
 st.set_page_config(layout="wide")
 
+# Disable automatic scrolling
+st.markdown("""
+    <style>
+        .element-container{
+            scrollbar-width: none;  /* Firefox */
+        }
+        .element-container::-webkit-scrollbar { 
+            display: none;  /* Safari and Chrome */
+        }
+    </style>
+""", unsafe_allow_html=True)
+
 top_container = st.container()
 with top_container:
     col1, col2 = st.columns(2)
