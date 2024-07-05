@@ -51,6 +51,9 @@ if st.button("ASK"):
 # st.write(response.text)
 
 st.title(" ")
+st.title(" ")
+st.title(" ")
+st.title(" ")
 
 col1, col2 = st.columns(2)
 
