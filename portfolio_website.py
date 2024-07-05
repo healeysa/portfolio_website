@@ -18,11 +18,15 @@ model = genai.GenerativeModel('gemini-1.5-flash')
 # st.markdown(js, unsafe_allow_html=True)
 
 col1, col2 = st.columns(2)
+
 with col1:
     st.subheader("Hello :wave:")
     st.title("I'm Steve Healey")
+
 with col2:
     st.image("images/steve.png")
+
+st.title(" ")
 
 
 persona = """
