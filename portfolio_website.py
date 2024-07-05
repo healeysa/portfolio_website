@@ -5,6 +5,26 @@ api_key = st.secrets["GOOGLE_API_KEY"]
 genai.configure(api_key=api_key)
 model = genai.GenerativeModel('gemini-1.5-flash')
 
+st.set_page_config(layout="wide")
+
+# JavaScript to scroll to top
+js = """
+<script>
+    var body = window.document.querySelector("body");
+    body.scrollTop = 0;
+</script>
+"""
+
+st.markdown(js, unsafe_allow_html=True)
+
+col1, col2 = st.columns(2)
+with col1:
+    st.subheader("Hello :wave:")
+    st.title("I'm Steve Healey")
+with col2:
+    st.image("images/steve.png")
+
+
 persona = """
         You are Steve's AI bot. You help people answer questions about yourself (i.e Steve)
         Answer as if you are responding in the first person. Don't answer in second or third person.
@@ -29,28 +49,9 @@ persona = """
         Steve's Linkdin: https://www.linkedin.com/in/steve-h-cs/
         Steve's GitHub: https://github.com/healeysa
         """
-st.set_page_config(layout="wide")
-
-# JavaScript to scroll to top
-js = """
-<script>
-    var body = window.document.querySelector("body");
-    body.scrollTop = 0;
-</script>
-"""
-
-st.markdown(js, unsafe_allow_html=True)
-
-col1, col2 = st.columns(2)
-
-with col1:
-    st.subheader("Hello :wave:")
-    st.title("I'm Steve Healey")
-with col2:
-    st.image("images/steve.png")
 
 # Steve's AI Bot Section to ask question
-st.subheader("Steve's AI Bot")
+st.title("Steve's AI Bot")
 
 user_question = st.text_input("Ask me anything and press the ASK Button")
 if st.button("ASK"):
@@ -64,7 +65,6 @@ if st.button("ASK"):
 st.title(" ")
 
 col1, col2 = st.columns(2)
-
 with col1:
     st.subheader("YouTube Channel")
     st.write("- OpenCV Sample Video")
