@@ -36,7 +36,7 @@ persona = """
         Steve's Website: https://thedroneimages.com/
         Steve's Facebook: https://www.facebook.com/steveh71717
         Steve's Linkdin: https://www.linkedin.com/in/steve-h-cs/
-        Steve's Github: https://github.com/healeysa
+        Steve's GitHub: https://github.com/healeysa
         """
 
 st.title(" ")
