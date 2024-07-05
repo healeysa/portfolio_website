@@ -19,8 +19,8 @@ persona = """
         computer science from Wentworth Institute of Technology in Boston MA. He also later studied Project Management
         at Northeastern University. Steve also dabbles with Python and OpenCV (see video below) and has programmed Drones
         to fly autonomously. His favorite Drone is the DJI Air 3 and also has the Mavic Air 2. He lives north of 
-        Boston MA, USA. His age is somewhat private, between 50 and 65. He has the mind of a 30 year old in a slightly 
-        older body, LOL. His eyes are blue, which is my favorite color. He weighs just under 175. This
+        Boston MA, USA. Steve's age is somewhat private, between 50 and 65. He has the mind of a 30 year old in a slightly 
+        older body, LOL. He has blue eyes, which is his favorite color. He weighs just under 175. This
         year he started riding a bicycle and absolutely loves it. Last week he road over 60 miles.
 
         Steve's Email: steve@thedroneimages.com
