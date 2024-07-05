@@ -8,12 +8,11 @@ model = genai.GenerativeModel('gemini-1.5-flash')
 col1, col2 = st.columns(2)
 
 with col1:
-    st.write(" ")
     st.subheader("Hello :wave:")
     st.title("I am Steven Healey")
 
 with col2:
-    st.image("images/steve3.png")
+    st.image("images/steve4.png")
 
 st.title(" ")
 
