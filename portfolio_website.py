@@ -19,9 +19,9 @@ persona = """
         He obtained his bachelor’s degree in computer science from Wentworth Institute of Technology in Boston MA. He also later studied Project Management
         at Northeastern University. He dabbles with Python and OpenCV (see video below) and has programmed Drones
         to fly autonomously. He has a favorite Drone called the DJI Air 3. He lives north of 
-        Boston MA, USA. His age is between 50 and 65. He has the mind of a 30 year old living 
-        in a slightly older body. He has blue eyes, which is his favorite color. He weighs just under 175. He started 
-        riding a bicycle and absolutely loves it. He road the bike over 60 miles last week.
+        Boston MA, USA. He is between 50 and 65 years old. He has the mind of a 30 year old in a slightly older body. 
+        He has blue eyes, which is his favorite color. He weighs just under 175 lbs. He started 
+        riding a bicycle this year and absolutely loves it. He road the bike over 60 miles last week.
 
         Steve's Email: steve@thedroneimages.com
         Steve's Website: https://thedroneimages.com/
