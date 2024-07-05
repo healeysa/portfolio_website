@@ -30,22 +30,25 @@ persona = """
         Steve's GitHub: https://github.com/healeysa
         """
 
-col1, col2 = st.columns(2)
+st.set_page_config(layout="wide")
 
-with col1:
-    st.subheader("Hello :wave:")
-    st.title("I'm Steve Healey")
-with col2:
-    st.image("images/steve.png")
+top_container = st.container()
+with top_container:
+    col1, col2 = st.columns(2)
+    with col1:
+        st.subheader("Hello :wave:")
+        st.title("I'm Steve Healey")
+    with col2:
+        st.image("images/steve.png")
 
-# Steve's AI Bot Section to ask question
-st.subheader("Steve's AI Bot")
+    # Steve's AI Bot Section to ask question
+    st.subheader("Steve's AI Bot")
 
-user_question = st.text_input("Ask me anything and press the ASK Button")
-if st.button("ASK"):
-    prompt = persona + "Here is the question that the user asked: " + user_question
-    response = model.generate_content(prompt)
-    st.write(response.text)
+    user_question = st.text_input("Ask me anything and press the ASK Button")
+    if st.button("ASK"):
+        prompt = persona + "Here is the question that the user asked: " + user_question
+        response = model.generate_content(prompt)
+        st.write(response.text)
 
 # response = model.generate_content("Write a story about a AI and magic")
 # st.write(response.text)
