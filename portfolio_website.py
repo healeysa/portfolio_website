@@ -13,7 +13,7 @@ with col1:
     st.title("I am Steven Healey")
 
 with col2:
-    st.image("images/steve2.png")
+    st.image("images/steve3.png")
 
 st.title(" ")
 
