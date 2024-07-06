@@ -34,7 +34,9 @@ persona = """
         He is between 50 and 65 years old and does not like to tell his age. He has the mind of a 30 year old in 
         a slightly older body. He is married, is 5 foot 10 inches tall, has blue eyes, which is his favorite color. He 
         weighs just under 175 lbs. He started riding a bicycle this year and absolutely loves it. Last week he road the 
-        bike nearly every day and over 60 miles.
+        bike nearly every day and over 60 miles. He loves working with wood and wanted to be a carpenter when he was a kid.
+        He taught himself how to play the piano and wrote a song for his daughter when she was married. He loves self help
+        books. He also likes watching YouTube videos on how to learn new topics. His wife's name is Joanne.
 
         Steve's Email: steve@thedroneimages.com
         Steve's Website: https://thedroneimages.com/
