@@ -50,6 +50,9 @@ if st.button("ASK", use_container_width=400):
     st.write(response.text)
 
 st.write("")
+st.write("")
+st.write("")
+st.write("")
 
 col1, col2 = st.columns(2)
 with col1:
