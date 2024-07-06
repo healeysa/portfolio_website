@@ -94,8 +94,6 @@ with col3:
 
 st.subheader(" ")
 st.write("CONTACT INFO")
-
 st.write(" ")
 st.title("For inquiries, email me at")
-
 st.subheader("steve@thedroneimages.com")
