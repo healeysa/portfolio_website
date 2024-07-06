@@ -76,9 +76,9 @@ st.write("")
 st.write("")
 
 st.title("My Skills")
-st.slider("Programming", 0, 100, 82)
-st.slider("Python", 0, 100, 75)
-st.slider("AI", 0, 100, 60)
+st.slider("Raspberry Pi", 0, 100, 95)
+st.slider("Programming", 0, 100, 85)
+st.slider("Python", 0, 100, 87)
 
 st.write(" ")
 st.title("Drone Photo Gallery")
