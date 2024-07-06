@@ -41,6 +41,7 @@ persona = """
         """
 
 # Steve's AI Bot Section to ask question
+st.write("")
 st.title("Steve's AI Bot")
 
 user_question = st.text_input("Ask me anything and press the ASK Button")
