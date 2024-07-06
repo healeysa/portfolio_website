@@ -51,13 +51,13 @@ if st.button("ASK", use_container_width=400):
 
 # st.title(" ")
 
-# col1, col2 = st.columns(2)
-# with col1:
-#     st.subheader("YouTube Channel")
-#     st.write("- OpenCV Sample Video")
-#
-# with col2:
-#     st.video("https://www.youtube.com/watch?v=DF7mNSgyKH8")
+col1, col2 = st.columns(2)
+with col1:
+    st.subheader("YouTube Channel")
+    st.write("- OpenCV Sample Video")
+
+with col2:
+    st.video("https://www.youtube.com/watch?v=DF7mNSgyKH8")
 
 # st.title(" ")
 #
