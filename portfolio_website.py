@@ -102,8 +102,12 @@ with col3:
     st.image("images/s8.jpg")
     st.image("images/s9.jpg")
 
-st.write(" ")
+st.write("")
+st.write("")
+st.write("")
+st.write("")
+
 st.write("CONTACT INFO")
-st.write(" ")
+st.write("")
 st.title("For inquiries, email me at")
 st.subheader("steve@thedroneimages.com")
