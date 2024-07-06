@@ -107,6 +107,5 @@ st.write("")
 st.write("")
 
 st.write("CONTACT INFO")
-st.write("")
 st.title("For inquiries, email me at")
 st.subheader("steve@thedroneimages.com")
