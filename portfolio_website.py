@@ -12,7 +12,7 @@ with col1:
     st.title("I am Steven Healey")
 
 with col2:
-    st.image("images/steve4.png")
+    st.image("images/murtaza.png")
 
 
 persona = """
