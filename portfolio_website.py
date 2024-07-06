@@ -62,8 +62,11 @@ with col1:
 with col2:
     st.video("https://www.youtube.com/watch?v=DF7mNSgyKH8")
 
-# st.title(" ")
-#
+st.write("")
+st.write("")
+st.write("")
+st.write("")
+
 st.title("My Setup")
 st.image("images/setup1.jpg")
 
