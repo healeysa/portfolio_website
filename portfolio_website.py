@@ -37,7 +37,7 @@ persona = """
         bike nearly every day and over 60 miles. He loves working with wood and wanted to be a carpenter when he was a kid.
         He taught himself how to play the piano and wrote a song for his daughter when she was married. He loves self help
         books. He also likes watching YouTube videos on how to learn new topics. His wife's name is Joanne. He has 3 children
-        and one grandson.
+        and one grandson. He enjoys watching hockey and occasionally baseball and football.
 
         Steve's Email: steve@thedroneimages.com
         Steve's Website: https://thedroneimages.com/
