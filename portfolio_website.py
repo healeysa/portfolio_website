@@ -59,41 +59,41 @@ st.title(" ")
 # with col2:
 #     st.video("https://www.youtube.com/watch?v=DF7mNSgyKH8")
 
-st.title(" ")
-
-st.title("My Setup")
-st.image("images/setup1.jpg")
-
-st.write(" ")
-st.title("My Skills")
-st.slider("Programming", 0, 100, 82)
-st.slider("Python", 0, 100, 75)
-st.slider("AI", 0, 100, 60)
-
-st.write(" ")
-st.title("Drone Photo Gallery")
-
-col1, col2, col3 = st.columns(3)
-
-# Try to run as a Nested Loop
-
-with col1:
-    st.image("images/s1.jpg")
-    st.image("images/s2.jpg")
-    st.image("images/s3.jpg")
-
-with col2:
-    st.image("images/s4.jpg")
-    st.image("images/s5.jpg")
-    st.image("images/s6.jpg")
-
-with col3:
-    st.image("images/s7.jpg")
-    st.image("images/s8.jpg")
-    st.image("images/s9.jpg")
-
-st.subheader(" ")
-st.write("CONTACT INFO")
-st.write(" ")
-st.title("For inquiries, email me at")
-st.subheader("steve@thedroneimages.com")
+# st.title(" ")
+#
+# st.title("My Setup")
+# st.image("images/setup1.jpg")
+#
+# st.write(" ")
+# st.title("My Skills")
+# st.slider("Programming", 0, 100, 82)
+# st.slider("Python", 0, 100, 75)
+# st.slider("AI", 0, 100, 60)
+#
+# st.write(" ")
+# st.title("Drone Photo Gallery")
+#
+# col1, col2, col3 = st.columns(3)
+#
+# # Try to run as a Nested Loop
+#
+# with col1:
+#     st.image("images/s1.jpg")
+#     st.image("images/s2.jpg")
+#     st.image("images/s3.jpg")
+#
+# with col2:
+#     st.image("images/s4.jpg")
+#     st.image("images/s5.jpg")
+#     st.image("images/s6.jpg")
+#
+# with col3:
+#     st.image("images/s7.jpg")
+#     st.image("images/s8.jpg")
+#     st.image("images/s9.jpg")
+#
+# st.subheader(" ")
+# st.write("CONTACT INFO")
+# st.write(" ")
+# st.title("For inquiries, email me at")
+# st.subheader("steve@thedroneimages.com")
