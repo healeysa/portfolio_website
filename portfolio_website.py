@@ -32,7 +32,7 @@ persona = """
         at Northeastern University. He dabbles with Python and OpenCV and has successfully programmed Drones
         to fly autonomously. He has a favorite Drone called the DJI Air 3. He lives just north of Boston MA, USA. 
         He is between 50 and 65 years old and does not like to tell his age. He has the mind of a 30 year old in 
-        a slightly older body. He is married, is 5 foot 10 inches, has blue eyes, which is his favorite color. He 
+        a slightly older body. He is married, is 5 foot 10 inches tall, has blue eyes, which is his favorite color. He 
         weighs just under 175 lbs. He started riding a bicycle this year and absolutely loves it. Last week he road the 
         bike nearly every day and over 60 miles.
 
