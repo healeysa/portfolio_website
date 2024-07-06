@@ -105,7 +105,6 @@ with col3:
 st.write("")
 st.write("")
 st.write("")
-st.write("")
 
 st.write("CONTACT INFO")
 st.write("")
